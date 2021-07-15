@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/stylesheet/application.css">
+    <title>My Awesome Books</title>
+</head>
+<body id="body">
+    <p id="notice"></p>
+    <a href="#dipslay-books" class="links" id='100'>List</a>
+    <a href="#new-book-form" class="links" id='101'>Add</a>
+
+    <section id='books-section'  class="books-section hide-page">
+        <h1>My Awesome Books</h1>
+        <div id='book-list' class="book-list">
+            
+        </div>
+    </section>
+
+    <section id='new-book-form' class="new-book-form hide-page">
+        <h2>Add new book</h2>
+        <form>
+            <div>
+              <input type="text" name="book-title" id="book-title" placeholder="Title">
+            </div>
+
+            <div>
+              <input type="text" name="author" id="author" placeholder="Author">
+            </div>
+            
+            <button type="button" value="Add" id="add-button">Add book</button>
+        </form>
+    </section>
+    <script type="module" src="./assets/javascript/main.js"></script>
+</body>
+</html>
